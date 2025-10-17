@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Research Paper Toolbox — module-based guide for incoming graduate students.">
+  <title>New Module Template · Research Paper Toolbox</title>
+  <!-- from /modules/, go up one for CSS -->
+  <link rel="stylesheet" href="../css/screen.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="branding">
+    <img class="logo" src="../assets/icons/hammer.svg" alt="" aria-hidden="true">
+    <h1 class="site-title">The Research Paper Toolbox</h1>
+    <p class="site-tagline">A sustainable, modular guide for research writing</p>
+  </div>
+  <nav class="top-nav" aria-label="Primary">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./module-1.html">Module 1: Getting Started</a></li>
+      <li><a href="./module-2.html">Module 2: Literature Review</a></li>
+      <li><a href="./template.html" aria-current="page" title="Template to add new modules">New Module Template</a></li>
+      <li class="divider" aria-hidden="true">|</li>
+      <li class="placeholder"><a href="./template.html">Module 3 (placeholder)</a></li>
+      <li class="placeholder"><a href="./template.html">Module 4 (placeholder)</a></li>
+      <li class="placeholder"><a href="./template.html">Module 5 (placeholder)</a></li>
+      <li class="placeholder"><a href="./template.html">Module 6 (placeholder)</a></li>
+      <li class="placeholder"><a href="./template.html">Module 7 (placeholder)</a></li>
+      <li class="placeholder"><a href="./template.html">Module 8 (placeholder)</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main" class="module template" tabindex="-1">
+  <article>
+    <header class="page-header">
+      <p class="eyebrow">Template</p>
+      <h2>New Module Template</h2>
+      <p class="lede">Copy this file to create a new module. Rename it to <code>module-N.html</code> and update the navigation in <code>index.html</code>.</p>
+    </header>
+
+    <!--
+      HOW TO USE THIS TEMPLATE
+      1) Duplicate this file and name it: /modules/module-N.html
+      2) Replace titles, headings, and sample content.
+      3) Keep the section IDs (overview, concepts, steps, examples, resources) or adapt consistently.
+      4) Use <aside> for tips, warnings, definitions. Keep alt text meaningful for all images.
+      5) Keep headings hierarchical (site title in header, then <h2> page title, <h3> sections, <h4> subheads).
+      6) Do NOT inline CSS or use <br> for spacing. Use classes and ../css/screen.css.
+      7) Keep figures inside <figure> with <figcaption>. Always write real alt text.
+      8) Test keyboard navigation and run the W3C validator before you commit.
+    -->
+
+    <section id="overview">
+      <h3>Overview</h3>
+      <p>Introduce the module’s purpose and learning outcomes in 2–4 short paragraphs.</p>
+      <aside class="definition">
+        <h4>Definition</h4>
+        <p>Use <code>&lt;aside&gt;</code> for definitions, tips, or contextual info that supplements the main flow.</p>
+      </aside>
+    </section>
+
+    <section id="concepts">
+      <h3>Key Concepts</h3>
+      <ul>
+        <li><strong>Term 1</strong> — short definition (one line).</li>
+        <li><strong>Term 2</strong> — short definition (one line).</li>
+        <li><strong>Term 3</strong> — short definition (one line).</li>
+      </ul>
+    <figure class="illustration">
+      <img src="../assets/icons/images/illustrations/datalesson_binary.png"
+          alt="Example placeholder figure showing how to pair images with captions and alt text.">
+    <figcaption>Figure 1. Placeholder example: replace with your module-specific screenshot.</figcaption>
+    </figure>
+    </section>
+
+    <section id="steps">
+      <h3>Process Steps</h3>
+      <ol>
+        <li>Actionable step written as an imperative sentence.</li>
+        <li>Another step with a brief rationale.</li>
+        <li>Final step with a check for understanding.</li>
+      </ol>
+      <aside class="tip">
+        <h4>Tip</h4>
+        <p>Offer a concise strategy or quick win; avoid overwhelming the user.</p>
+      </aside>
+    </section>
+
+    <section id="examples">
+      <h3>Examples</h3>
+      <article class="example">
+        <h4>Worked example</h4>
+        <p>Demonstrate a concept with minimal markup; prefer lists and code blocks over images for text.</p>
+        <pre><code>&lt;ul class="checklist"&gt;
+  &lt;li&gt;First item&lt;/li&gt;
+  &lt;li&gt;Second item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+      </article>
+    </section>
+
+    <section id="resources">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="https://material.io/resources/icons/" target="_blank" rel="noopener">Material Symbols</a></li>
+        <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener">Contrast Checker</a></li>
+        <li><a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C Validator</a></li>
+      </ul>
+    </section>
+
+    <nav class="prev-next" aria-label="Module navigation">
+      <a class="prev" href="../index.html">← Home</a>
+      <a class="next" href="./module-1.html">Module 1 →</a>
+    </nav>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Research Paper Toolbox · Built for COM 421 (Fall 2025).</p>
+</footer>
+</body>
+</html>
