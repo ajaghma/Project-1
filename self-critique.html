@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Self-Critique · Research Paper Toolbox</title>
+  <link rel="stylesheet" href="./css/screen.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="branding">
+    <img class="logo" src="./assets/icons/hammer.svg" alt="" aria-hidden="true">
+    <h1 class="site-title">The Research Paper Toolbox</h1>
+    <p class="site-tagline">Self-critique</p>
+  </div>
+  <nav class="top-nav" aria-label="Primary">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./modules/topic.html">Topic</a></li>
+      <li><a href="./modules/research.html">Research</a></li>
+      <li><a href="./modules/data.html">Data (placeholder)</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <article>
+    <header class="page-header">
+      <h2>Self-Critique</h2>
+    </header>
+
+    <section>
+      <p>
+        My goal was a simple, sustainable structure that’s easy to extend. I used
+        semantic landmarks (<code>header</code>, <code>nav</code>, <code>main</code>, <code>article</code>, <code>section</code>, <code>footer</code>) and a single shared
+        stylesheet to keep things predictable. Navigation is consistent across pages, and
+        the active tab gets <code>aria-current="page"</code>. The skip link and clean heading
+        order make keyboard travel straightforward. Figures use meaningful alt text; the
+        hammer logo is decorative (<code>alt=""</code>, <code>aria-hidden</code>).
+      </p>
+      <p>
+        I kept all links and assets relative, validated the HTML, and spot-checked page
+        transitions in DevTools to make sure HTML/CSS/images return 200s. The “template”
+        page and clear file naming aim to make future modules feel like drop-ins rather
+        than one-offs.
+      </p>
+      <p>
+        If I had more time, I’d add a small design system (tokens for spacing/type),
+        print styles, and a dark mode. I’d also build out the placeholder modules and
+        consider breadcrumbs or a mini site map for orientation. Overall, the site isn’t
+        flashy, but it’s stable, accessible, and ready to grow.
+      </p>
+    </section>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Research Paper Toolbox · Built for COM 421 (Fall 2025).</p>
+  <p><a href="./index.html">Back to Home</a></p>
+</footer>
+</body>
+</html>
